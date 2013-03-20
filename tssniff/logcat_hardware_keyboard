@@ -1,0 +1,155 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  146): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.thoughtcrime.securesms/.RoutingActivity bnds=[75,247][156,321] } from pid 248
+--------- beginning of /dev/log/main
+W/KeyCachingService(  758): Incrementing activity count...
+I/ActivityManager(  146): Starting: Intent { cmp=org.thoughtcrime.securesms/.PassphrasePromptActivity } from pid 758
+W/KeyCharacterMap(  758): No keyboard for id -1
+W/KeyCharacterMap(  758): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+W/InputManagerService(  146): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4063cef0 (uid=10008 pid=758)
+W/InputManagerService(  146): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@409339c0
+W/KeyCachingService(  758): Decrementing activity count...
+I/ActivityManager(  146): Displayed org.thoughtcrime.securesms/.PassphrasePromptActivity: +128ms (total +209ms)
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=32
+V/QwertyKeyListener(  758): onKeyDown keyCode=32
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=32
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=24
+V/QwertyKeyListener(  758): onKeyDown keyCode=43
+I/dun_service(  101): The value returned from dun_getusbmodemstate_fromsys is 1 
+I/dun_service(  101): Post event 1
+I/dun_service(  101): received event: DUN_EVENT_USB_UNPLUG 
+I/dun_service(  101): received event(DUN_EVENT_USB_UNPLUG) in state(DUN_STATE_USB_UNPLUG)
+I/dun_service(  101): Ignoring the event DUN_EVENT_USB_UNPLUG in USB_UNPLUG_STATE
+I/dun_service(  101): Moved to state(DUN_STATE_USB_UNPLUG)
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=24
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=49
+V/QwertyKeyListener(  758): onKeyDown keyCode=42
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=49
+V/DATA    (  235): [DCT] onDataCallListChanged:
+V/DATA    (  235): [DCT] ---dc state list---
+V/DATA    (  235): [DCT] DataCallState: { cid: 0, active: 1, type: IP, apn: , address: 21.94.191.46 }
+V/DATA    (  235): [DCT] ---dc list---
+V/DATA    (  235): [DCT] cid = 0, state = DcActiveState, ipv = IPV4, ipaddress = 21.94.191.46, gw=21.94.191.45, dns=[66.1.65.7, 68.29.81.7]
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=100
+V/QwertyKeyListener(  758): onKeyDown keyCode=58
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=100
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=50
+V/QwertyKeyListener(  758): onKeyDown keyCode=41
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=50
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+V/QwertyKeyListener(  758): onKeyDown keyCode=48
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+V/QwertyKeyListener(  758): onKeyDown keyCode=62
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=34
+V/QwertyKeyListener(  758): onKeyDown keyCode=35
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=34
+I/dun_service(  101): The value returned from dun_getusbmodemstate_fromsys is 1 
+I/dun_service(  101): Post event 1
+I/dun_service(  101): received event: DUN_EVENT_USB_UNPLUG 
+I/dun_service(  101): received event(DUN_EVENT_USB_UNPLUG) in state(DUN_STATE_USB_UNPLUG)
+I/dun_service(  101): Ignoring the event DUN_EVENT_USB_UNPLUG in USB_UNPLUG_STATE
+I/dun_service(  101): Moved to state(DUN_STATE_USB_UNPLUG)
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=18
+V/QwertyKeyListener(  758): onKeyDown keyCode=33
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=18
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+V/QwertyKeyListener(  758): onKeyDown keyCode=48
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+V/QwertyKeyListener(  758): onKeyDown keyCode=62
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=46
+V/QwertyKeyListener(  758): onKeyDown keyCode=31
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=46
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=30
+V/QwertyKeyListener(  758): onKeyDown keyCode=29
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=30
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=22
+V/QwertyKeyListener(  758): onKeyDown keyCode=49
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=22
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=34
+V/QwertyKeyListener(  758): onKeyDown keyCode=35
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=34
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=35
+V/QwertyKeyListener(  758): onKeyDown keyCode=36
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=35
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+V/QwertyKeyListener(  758): onKeyDown keyCode=48
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=20
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+V/QwertyKeyListener(  758): onKeyDown keyCode=62
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=57
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=31
+V/QwertyKeyListener(  758): onKeyDown keyCode=47
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=31
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=38
+V/QwertyKeyListener(  758): onKeyDown keyCode=40
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=38
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=23
+V/QwertyKeyListener(  758): onKeyDown keyCode=37
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=23
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=25
+V/QwertyKeyListener(  758): onKeyDown keyCode=44
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=25
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=25
+V/QwertyKeyListener(  758): onKeyDown keyCode=44
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=25
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=23
+V/QwertyKeyListener(  758): onKeyDown keyCode=37
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=23
+I/dun_service(  101): The value returned from dun_getusbmodemstate_fromsys is 1 
+I/dun_service(  101): Post event 1
+I/dun_service(  101): received event: DUN_EVENT_USB_UNPLUG 
+I/dun_service(  101): received event(DUN_EVENT_USB_UNPLUG) in state(DUN_STATE_USB_UNPLUG)
+I/dun_service(  101): Ignoring the event DUN_EVENT_USB_UNPLUG in USB_UNPLUG_STATE
+I/dun_service(  101): Moved to state(DUN_STATE_USB_UNPLUG)
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=49
+V/QwertyKeyListener(  758): onKeyDown keyCode=42
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=49
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=100
+V/QwertyKeyListener(  758): onKeyDown keyCode=58
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=100
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=50
+V/QwertyKeyListener(  758): onKeyDown keyCode=41
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=50
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=28
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=28
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=28
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=28
+W/service (  758): Broadcasting new secret...
+W/KeyCachingService(  758): Starting timeout: 10800000
+W/DecryptingQueue(  758): Processing pending decrypts...
+W/MmsSmsDatabase(  758): Executing query: SELECT _id, body, read, type, address, subject, thread_id, normalized_date_sent AS date_sent, normalized_date_received AS date_received, m_type, msg_box, transport_type FROM (SELECT DISTINCT date_sent * 1 AS normalized_date_sent, date * 1 AS normalized_date_received, _id, body, read, thread_id, type, address, subject, date, NULL AS m_type, NULL AS msg_box, status, 'sms' AS transport_type FROM sms WHERE (read = 0) UNION ALL SELECT DISTINCT date * 1000 AS normalized_date_sent, date_received * 1000 AS normalized_date_received, _id, NULL AS body, read, thread_id, NULL AS type, NULL AS address, NULL AS subject, date, m_type, msg_box, NULL AS status, 'mms' AS transport_type FROM mms WHERE (read = 0) ORDER BY normalized_date_received ASC)
+W/SendReceiveService(  758): Got a MasterSecret broadcast...
+W/PartProvider(  758): Got master secret: org.thoughtcrime.securesms.crypto.MasterSecret@406957b8
+W/SendReceiveService(  758): Got a MasterSecret broadcast...
+W/SendReceiveService(  758): SendReceive service got master secret.
+W/KeyCachingService(  758): Incrementing activity count...
+I/ActivityManager(  146): Starting: Intent { cmp=org.thoughtcrime.securesms/.ConversationListActivity (has extras) } from pid 758
+W/KeyCachingService(  758): Decrementing activity count...
+W/KeyCachingService(  758): Starting timeout: 10800000
+W/KeyCharacterMap(  758): No keyboard for id -1
+W/KeyCharacterMap(  758): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+W/SMSSenderService(  758): Processing outgoing message: -1
+W/KeyCachingService(  758): Incrementing activity count...
+I/ActivityManager(  146): Displayed org.thoughtcrime.securesms/.ConversationListActivity: +396ms
+I/ActivityManager(  146): Displayed org.thoughtcrime.securesms/.RoutingActivity: +9s658ms
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=102
+I/WindowManager(  146): home key test1= 1
+D/WindowManager(  146): Home Key Test : false : false
+E/KeyLayoutMap(  146): mapKeypadKeyScancode - scancode=102
+D/WindowManager(  146): Home Key Test : false : false
+I/ActivityManager(  146): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher } from pid 146
+W/KeyCachingService(  758): Decrementing activity count...
+W/KeyCachingService(  758): Starting timeout: 10800000
+W/InputManagerService(  146): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4080b150
+E/GridView(  248): Grid View Has Focus
+W/BackupManagerService(  146): dataChanged but no participant pkg='com.android.providers.settings' uid=10037
+I/dun_service(  101): The value returned from dun_getusbmodemstate_fromsys is 1 
+I/dun_service(  101): Post event 1
+I/dun_service(  101): received event: DUN_EVENT_USB_UNPLUG 
+I/dun_service(  101): received event(DUN_EVENT_USB_UNPLUG) in state(DUN_STATE_USB_UNPLUG)
+I/dun_service(  101): Ignoring the event DUN_EVENT_USB_UNPLUG in USB_UNPLUG_STATE
+I/dun_service(  101): Moved to state(DUN_STATE_USB_UNPLUG)
+I/ActivityManager(  146): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.poc.dumplog/.MainActivity } from pid 248
